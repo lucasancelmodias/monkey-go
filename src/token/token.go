@@ -12,9 +12,16 @@ const (
 	EOF     = "EOF"
 	IDENT   = "IDENT"
 	INT     = "INT"
+
 	ASSIGN  = "="
 	PLUS    = "+"
-
+	MINUS = "-"
+	BANG = "!"
+	ASTERISK = "*"
+	SLASH = "/"
+	
+	LT = "<"
+	GT = ">"
 	COMMA     = ","
 	SEMICOLON = ";"
 
