@@ -1,11 +1,10 @@
 package main
 
 import (
-
 	"fmt"
+	"monkey-go/repl"
 	"os"
 	"os/user"
-	"monkey-go/src/repl"
 )
 
 func main(){

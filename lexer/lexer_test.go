@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"monkey-go/src/token"
+	"monkey-go/token"
 	"testing"
 	//"fmt"
 )
@@ -105,7 +105,6 @@ func TestNextToken(t *testing.T) {
 		{token.NOT_EQ, "!="},
 		{token.INT, "9"},
 		{token.SEMICOLON, ";"},
-
 
 		{token.EOF, ""},
 	}
